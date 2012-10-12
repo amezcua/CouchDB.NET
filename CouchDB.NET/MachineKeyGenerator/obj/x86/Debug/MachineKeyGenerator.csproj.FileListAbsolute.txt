@@ -1,0 +1,6 @@
+J:\Proyectos\Byteabyte\CouchDB.NET\MachineKeyGenerator\bin\Debug\MachineKeyGenerator.exe
+J:\Proyectos\Byteabyte\CouchDB.NET\MachineKeyGenerator\bin\Debug\MachineKeyGenerator.pdb
+J:\Proyectos\Byteabyte\CouchDB.NET\MachineKeyGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\Proyectos\Byteabyte\CouchDB.NET\MachineKeyGenerator\obj\x86\Debug\MachineKeyGenerator.exe
+J:\Proyectos\Byteabyte\CouchDB.NET\MachineKeyGenerator\obj\x86\Debug\MachineKeyGenerator.pdb
+J:\Proyectos\Byteabyte\CouchDB.NET\MachineKeyGenerator\bin\Debug\MachineKeyGenerator.exe.config

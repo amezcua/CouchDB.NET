@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F12795A-4C00-4464-999A-1012CF12DC40}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CouchDb.ASP.Net.Specs</RootNamespace>
+    <AssemblyName>CouchDb.ASP.Net.Specs</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.5.7.10213, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\CouchDB.NET.Specs\SpecsDlls\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RoleSpecs\AddRolesToTheDatabaseSteps.cs" />
+    <Compile Include="RoleSpecs\AssignRolesToUserSteps.cs" />
+    <Compile Include="RoleSpecs\CanNotDeleteAssignedRoleSteps.cs" />
+    <Compile Include="RoleSpecs\CouchDbRoleProvider.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CouchDbRoleProvider.feature</DependentUpon>
+    </Compile>
+    <Compile Include="RoleSpecs\DeleteRolesFromDatabaseSteps.cs" />
+    <Compile Include="RoleSpecs\GetAllRolesSteps.cs" />
+    <Compile Include="RoleSpecs\GetRolesForUserSteps.cs" />
+    <Compile Include="RoleSpecs\RemoveUserFromRoleSteps.cs" />
+    <Compile Include="RoleSpecs\RetrieveAllUsersInRole.cs" />
+    <Compile Include="RoleSpecs\VerifyInvalidRoleDoesNotExistSteps.cs" />
+    <Compile Include="RoleSpecs\VerifyrRoleExistsSteps.cs" />
+    <Compile Include="TestHelper.cs" />
+    <Compile Include="UserDeletionSteps.cs" />
+    <Compile Include="UserPasswordChangeSteps.cs" />
+    <Compile Include="UserValidationFailsSteps.cs" />
+    <Compile Include="ReflectionHelper.cs" />
+    <Compile Include="UserCreationFailsForDuplicateEmailSteps.cs" />
+    <Compile Include="CouchDbMembershipProviderUserManagement.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CouchDbMembershipProviderUserManagement.feature</DependentUpon>
+    </Compile>
+    <Compile Include="RetrieveKnownUserByUserNameSteps.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RetreiveKnownUserNameByEmailSteps.cs" />
+    <Compile Include="UserCreationFailsForDuplicateUserNameSteps.cs" />
+    <Compile Include="UserCreationSteps.cs" />
+    <Compile Include="RetrieveAllUsersSteps.cs" />
+    <Compile Include="UserValidationSuccedsSteps.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CouchDb.ASP.NET\CouchDb.ASP.NET.csproj">
+      <Project>{1397A05A-213E-41F6-B3A6-F2FD2F30B2BA}</Project>
+      <Name>CouchDb.ASP.NET</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CouchDB.NET\CouchDB.NET.csproj">
+      <Project>{998D1A5A-860F-4B40-AA99-328DE0FE3C9A}</Project>
+      <Name>CouchDB.NET</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libs\nunit.framework.dll" />
+    <Content Include="Libs\TechTalk.SpecFlow.dll" />
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="CouchDbMembershipProviderUserManagement.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CouchDbMembershipProviderUserManagement.feature.cs</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RoleSpecs\CouchDbRoleProvider.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CouchDbRoleProvider.feature.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

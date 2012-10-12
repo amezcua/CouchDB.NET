@@ -1,0 +1,9 @@
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\bin\Debug\Libs\JsonFx.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\bin\Debug\couchdb.net.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\bin\Debug\couchdb.net.pdb
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\bin\Debug\EasyHttp.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\bin\Debug\JsonFx.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\bin\Debug\StructureMap.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\obj\Debug\ResolveAssemblyReference.cache
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\obj\Debug\couchdb.net.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDB.NET\obj\Debug\couchdb.net.pdb

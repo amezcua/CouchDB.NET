@@ -1,0 +1,17 @@
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\obj\Debug\ResolveAssemblyReference.cache
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\Libs\JsonFx.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\Web.config
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\CouchDb.ASP.Net.Specs.dll.config
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\CouchDb.ASP.Net.Specs.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\CouchDb.ASP.Net.Specs.pdb
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\CouchDb.ASP.NET.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\couchdb.net.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\nunit.framework.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\TechTalk.SpecFlow.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\EasyHttp.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\JsonFx.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\StructureMap.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\CouchDb.ASP.NET.pdb
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\bin\Debug\couchdb.net.pdb
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\obj\Debug\CouchDb.ASP.Net.Specs.dll
+J:\Proyectos\Byteabyte\CouchDB.NET\CouchDb.ASP.Net.Specs\obj\Debug\CouchDb.ASP.Net.Specs.pdb
